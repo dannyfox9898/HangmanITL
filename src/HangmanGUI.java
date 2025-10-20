@@ -106,10 +106,5 @@ public class HangmanGUI extends JFrame {
         }
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            HangmanGUI gui = new HangmanGUI();
-            gui.setVisible(true);
-        });
-    }
+
 }
